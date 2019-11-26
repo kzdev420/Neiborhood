@@ -1,0 +1,49 @@
+#my-requests-container {
+    min-height: calc(100vh - 64px)
+}
+
+.request-card-title span{
+    color: white;
+}
+
+.one-time-card {
+    background-color: #8C9EFF;
+}
+
+.material-need-card{
+    background-color: #f6685e;
+}
+
+.fulfilled{
+    background-color: #43a047
+}
+
+.request-card {
+    margin: 5px;
+}
+
+#request-card-content {
+    padding-top: 0px;
+    box-sizing: border-box;
+    height: 273px;  
+}
+
+.description-body {
+    height: 150px;
+}
+
+@media screen and (max-width: 425px) {
+    #request-card-content {
+        overflow-y: scroll;
+    }
+
+    .description-body {
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #my-requests-container {
+        height: calc(100vh - 56px);
+    }
+}

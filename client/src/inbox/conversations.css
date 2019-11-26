@@ -1,0 +1,137 @@
+#conversations-container {
+    height: calc(100vh - 64px);
+}
+#contacts {
+    border-right: 2px solid white; 
+    background-color: #e8eaf6;
+    height: 100%; 
+    padding: 10px;
+    overflow-y: scroll;   
+}
+
+
+#contacts > ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#list-item-paper {
+    background-color: #868CAA;
+}
+
+#list-item-paper:hover {
+    cursor: pointer;
+}
+
+#list-item-paper span { 
+    color: white;
+}
+
+#list-item-paper p {
+    color: white;
+}
+
+#messages-container-header {
+    background-color: #8C9EFF;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;  
+}
+
+#messages-container-header h5 {
+    color: white;
+}
+
+#mobile-messages-container-header {
+    background-color: #8C9EFF;
+    padding-left: 10px;
+    display: flex;
+    align-items: center; 
+    display: none;
+}
+
+#mobile-messages-container-header h5 {
+    color: white;
+}
+
+#message-and-input-area {
+    /*background-color: #EAEAEA;
+    background-color: #ede7f6;
+    background-color: #fce4ec;
+    background-color: #ffebee;
+    background-color: #1f2a42;
+    background-color: #e3f2fd;
+    */
+    /* dark slate grey: #192033, lighter dark slate grey: #1f2a42      deep pink: #ff458b*/
+    background-color: #e8eaf6;
+    height: 100%;
+    padding: 10px;
+
+}
+
+#messages-container {
+    overflow-y: scroll;
+    padding-top: 10px;
+    max-width: 100%;
+    height: 75%;
+}
+
+#message-submit-button {
+    border-radius: 0px 4px 4px 0px;
+}
+
+/*@media screen and (max-width: 599px) {
+    #conversations-container {
+        height: calc(100vh - 56px);
+    }
+}*/
+
+.active-conversation {
+    background-color: #8C9EFF;
+    border-radius: 4px;
+}
+
+.active-conversation-text span {
+    color: white;
+}
+
+.active-conversation-text p {
+    color: white;
+}
+
+
+@media screen and (max-width: 599px) {
+    #conversations-container {
+        height: calc(100vh - 56px);
+    }
+
+    #contacts {
+        display: none;
+    }
+
+    #message-header-area {
+        height: 15%;
+    }
+
+    #messages-container-header {
+        display: none;
+    }
+
+    #mobile-messages-container-header {
+        display: flex;
+    }
+
+    #mobile-messages-container-header:hover{
+        background-color: #7E8DE5;
+        cursor: pointer;
+    }
+
+    #message-and-input-area {
+        height: 100%;
+    }
+
+    #messages-container {
+        padding-bottom: 10px;
+        height: 70%;
+    }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Messages /> renders a correct snapshot 1`] = `
+<div
+  className="MuiGrid-item-2"
+  id="messages-container-item"
+  style={
+    Object {
+      "height": "100%",
+      "overflowY": "scroll",
+    }
+  }
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-direction-xs-column-4"
+  >
+    <div
+      className="message my-message"
+    >
+      hi
+    </div>
+    <div
+      className="message my-message"
+    >
+      hello
+    </div>
+  </div>
+</div>
+`;

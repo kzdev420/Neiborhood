@@ -1,0 +1,49 @@
+#fab-add-button {
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#request-form > div:nth-child(3) {
+    width: 50%;
+}
+
+#request-form > div:nth-child(3) > div {
+    width: 60%;
+}
+
+#request-form > div:nth-child(4) {
+    width: 50%;
+}
+
+#request-form > div:nth-child(4) > div {
+    width: 60%;
+}
+
+
+@media screen and (max-width: 599px) {
+    #map-footer {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #request-form > div:nth-child(3) {
+        width: 100%;
+    }
+    
+    #request-form > div:nth-child(3) > div {
+        width: 100%;
+    }
+    
+    #request-form > div:nth-child(4) {
+        width: 100%;
+    }
+    
+    #request-form > div:nth-child(4) > div {
+        width: 100%;
+    }
+}

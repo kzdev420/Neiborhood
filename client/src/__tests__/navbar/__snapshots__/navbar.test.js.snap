@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> renders a correct snapshot 1`] = `
+<header
+  className="MuiPaper-root-10 MuiPaper-elevation4-16 MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorPrimary-8"
+>
+  <div
+    className="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38"
+  >
+    <h6
+      className="MuiTypography-root-41 MuiTypography-h6-58 MuiTypography-colorInherit-70"
+    />
+    <div
+      id="user-menu"
+    >
+      <button
+        aria-haspopup="true"
+        className="MuiButtonBase-root-83 MuiIconButton-root-77 MuiIconButton-colorInherit-78"
+        disabled={false}
+        id="menu-button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label-82"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-86"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root-99"
+        />
+      </button>
+    </div>
+  </div>
+</header>
+`;

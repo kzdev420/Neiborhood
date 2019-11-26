@@ -1,0 +1,38 @@
+.my-message {
+    /*background-color: #f48fb1;*/
+    background-color: #e91e63;
+    border-radius: 10px 10px 0px 10px;
+    align-self: flex-end;
+    color: white;
+    margin-right: 0px;
+}
+
+.their-message {
+    /*background-color: white;*/
+    /*color: black;*/
+    background-color: #8C9EFF;
+    color: white;
+    border-radius: 10px 10px 10px 0px;
+    align-self: flex-start;
+    margin-left: 0px;
+}
+
+.message {
+    max-width: 70%;
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+#message-input {
+    margin-left: 8px;
+    
+}
+
+#input-divider {
+    width: 1px;
+    margin: 4px;
+}
+
+#input-paper {
+    display: flex;
+}

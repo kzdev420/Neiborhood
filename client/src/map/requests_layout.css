@@ -1,0 +1,17 @@
+#map-container {
+    height: calc(100vh - 128px);
+}
+
+@media screen and (max-width: 599px) {
+    #map-container {
+        height: calc(100vh - 102px);
+    }
+}
+
+.form-dialog-title h2{
+    color: white;
+}
+
+.success-snackbar div {
+    background-color: #43a047;
+}
