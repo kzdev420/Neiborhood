@@ -22,8 +22,6 @@ gem 'devise-jwt', '~> 0.5.9'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-gem 'active_storage_validations'
-gem 'aws-sdk-s3', '~> 1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
