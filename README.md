@@ -11,6 +11,7 @@ Things you may want to cover:
 * Google maps api key
 - create a .env file in the root of the client directory
 - add REACT_APP_GOOGLE_MAPS_API_KEY=YOUR_KEY
+ must be enabled Map key, Geocode key, Geolocation key in Googole Map API.
 
 * AWS storage config environment variables needed
   - AWS_ACCESS_KEY_ID
